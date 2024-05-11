@@ -1,0 +1,758 @@
+
+ /* Contenedor de los diferentes diseños de los elementos de la web*/
+ /* La experiencia de los usuarios debe ser lo más gratificante posible*/
+
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.ColocacionPieDePagina{
+	float:right;
+	text-align:right;
+}
+
+.errores {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 150px; /* Espacio entre la imagen y el borde inferior */
+  margin-right: 680px; /* Espacio entre la imagen y el borde derecho */
+}
+
+
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Botones para la opción de validar del Administrador. */
+
+.boton2 {
+	background-color: #008CBA; 
+	width: 100px;} 
+
+.boton3 {background-color: #f44336; 
+width: 100px;} 
+
+/*Se utiliza para el diseño del encabezado de la tabla de entrenamiento cuando se imprime alguno por pantalla
+tanto al admin como al usuario*/
+
+.Entrenos h2 {
+	padding-top: 20px;
+  text-decoration: overline;
+  text-align: center;
+}
+
+/*Se utiliza para el encabezado de Interés en CapaUsuario/Administrador/Usuarios.php*/
+.Interes h2{
+	 background-color: black;
+  color: white;
+  padding: 5px; /*Para que el fondo se ajuste en 5px respecto del texto. */
+}
+
+
+
+.Cabecera {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    background-color: #000;
+    font-size: 20px;
+	z-index: 2;
+    color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Contenido {	
+	position:relative;
+	font-family: Roboto, Arial, sans-serif;
+	top:160px;
+	overflow: auto;
+	margin: 0;
+	height: auto;
+	width:99%;
+} 
+.contenidoregistro1{
+	position: absolute;
+	left: 120px;
+    top: 170px;
+	 float: left;
+}
+.contenidoregistro2{
+	position: absolute;
+	right: 80px;
+    top: 170px;
+	 float: right;
+}
+
+
+.PiedePagina {
+	position: fixed;
+	bottom:0;
+	background: black;
+	left: 0;
+	right: 0;	
+	color: #FFF;	
+	list-style-type: none;
+	margin:0;
+	padding:0;	
+	font-size:10px;
+	float:right;
+}
+
+
+.PiedePagina a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+	float:right;
+}
+
+
+.PiedePagina a:hover{     
+	font-style: oblique;	  
+    color:#F0F;
+}
+
+
+.PiedePagina ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+
+   
+.PiedePagina ul li{
+    display:inline-block;
+    width:220px;
+    height:20px;
+    padding:5px 2px;
+    background-color: #000;
+    text-align:center;
+    color:#fFf;
+    position:relative;
+}
+
+
+.Cabecera h1 {
+    position: relative;
+    top: 10px;
+	text-align:center;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    background-color: #000;
+    font-size: 20px;
+    color: #FFFFFF;
+}  
+
+
+.Menu {
+	box-sizing:border-box;
+	background-color: #000;
+	font-size:2px;
+	z-index: 2;
+	position:absolute;
+	width:100%;
+	
+}
+
+
+.Menu a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+}
+
+
+.Menu a:hover{     
+	font-style: oblique;	  
+    color:#F0F;
+}
+
+
+.Menu ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+  
+  
+.Menu ul li{
+	display: block;   position: relative;   float: left;  
+    width:220px;
+    height:20px;
+    padding:8px 2px;
+    background-color: #000;
+    text-align:center;
+    color:#fFf;
+    position:relative;
+}
+
+
+.Menu ul li:hover > ul {
+    display:block;
+    position:absolute;
+    top:30px;
+    left:0px;
+}
+
+
+.Menu ul ul{
+    display:none;
+	padding:0px 20px;
+}
+
+  
+.Menu ul ul li {
+    min-width:170px;
+	height:10px;
+    display:list-item;
+    position: relative;
+}
+
+
+.Menu ul ul ul {
+	position: absolute;
+    top:0;
+    left:100%;
+}
+
+
+.Menu ul ul ul li {
+    min-width:170px;
+    display:list-item;
+    position: relative;
+}
+
+
+
+.Tabla  {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+
+.Tabla th{  
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+ .Tabla tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+.Tabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+.Tabla tr:nth-child(even){background-color: #f2f2f2;}
+
+
+.Tabla tr:hover {background-color: #ddd;}
+
+/*Para imprimir a los usuarios por pantalla*/
+.tabla2 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabla2  td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla2  th {
+	padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla2 tr:hover {background-color: coral;}
+
+.tabla3 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabla3  td {
+	
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla3  th {
+	font-weight: bold;
+	padding-top: 30px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla3 td:hover {background-color: #d5f4e6;}
+
+.tabla4 {
+	width: 100%; 
+	text-align: center; 
+	border-collapse: collapse;
+}
+
+/*Para las celdas en CapaUsuario/Administrador/Usuarios.php de Inte´res de usuario*/
+.celdas {background-color: #f2f2f2; font-weight: bold;}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 15px 20px 13px 20px;
+	border-radius: 0px;
+	background: #fff;
+	text-align: center;
+	background: -moz-linear-gradient(#000, #999);
+	background: -webkit-linear-gradient(#000, #999);
+	background: -o-linear-gradient(#000, #999);
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+
+
+.close {
+	background:  #ff0000;
+	color: #fff ;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: red; }
+	input1 {
+      width: calc(100% - 10px);
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      vertical-align: middle;
+    }
+	  
+    input1:hover, textarea:hover, select:hover {
+      outline: none;
+      border: 1px solid #095484;
+      background: red;
+    }
+
+
+.formulario {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+	color: #fff;
+}
+
+    input {
+      width: calc(50% - 10px);
+      padding: 4px;
+      border: 1px solid;
+      border-radius: 2px;
+      vertical-align: middle;
+    }
+	  
+    input:hover, textarea:hover, select:hover {
+      outline: none;
+      border: 1px solid #095484;
+      background: #e6eef7; 
+    }
+      
+    select {
+      padding: 7px 0;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      background: transparent;
+    }
+	  
+	select {
+     background: #fff;
+	 color:#000;
+	 }
+	
+    option {
+      background: #fff;
+	  color:#fff;
+    }
+	  
+    button {
+      width: 150px;
+      padding: 10px;
+	  border: none;
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px; 
+      border-radius: 5px; 
+      background-color: #0000ff;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+	button:hover {
+      background-color: #0000ff;
+    }
+
+.formulario3 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+	color: #fff;
+}
+
+    input {
+      width: calc(50% - 10px);
+      padding: 4px;
+      border: 1px solid;
+      border-radius: 2px;
+      vertical-align: middle;
+    }
+	  
+    input:hover, textarea:hover, select:hover {
+      outline: none;
+      border: 1px solid #095484;
+      background: #e6eef7; 
+    }
+      
+    select {
+      padding: 7px 0;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      background: transparent;
+    }
+	  
+	select {
+     background: #000;
+	 color:#fff;
+	 }
+	
+    option {
+      background: #fff;
+	  color:#000;
+    }
+	  
+    button {
+      width: 150px;
+      padding: 10px;
+	  border: none;
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px; 
+      border-radius: 5px; 
+      background-color: #0000ff;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+	button:hover {
+      background-color: #0000ff;
+    }
+
+.formulario2 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+	color: #000; 
+}
+  
+    input {
+      width: 200px;
+      padding: 4px;
+      border: 1px solid;
+      border-radius: 2px;
+      vertical-align: middle;
+    }
+  
+    input:hover, textarea:hover, select:hover {
+      outline: none;
+      border: 1px solid #095484;
+      background: #e6eef7;
+    }
+    
+    select {
+      padding: 7px 0;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      background: transparent;
+    } 
+  
+    option {
+      background: #fff;
+    }
+
+	
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+  
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.col-20{
+	float:center;
+	width: 6.5%;
+	margin-top:6 px;
+}
+
+.col-70 {
+  float: right;
+  width: 12%;
+  margin-top: 6px;
+}
+.TableBOM{
+  border:1px solid black;
+  text-align:center;
+}
+/*Estilo aplicado a la etiqueta th y la tabla tiene asignada una clase*/
+.TableBOM th{
+  border:1px solid black;
+  text-align:center;
+}
+.TableBOM tr{
+  border:1px solid black;
+  text-align:center;
+}
+/*
+Estilos para el listado de la lista de componentes
+*/
+.TableListadoComponentes{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-collapse: collapse;
+  text-align:center;
+  width:100%;
+  border-spacing: 0;
+}
+.TableListadoComponentes th{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:center;
+  border-spacing: 0;
+}
+.TableListadoComponentes td{
+  text-align:center;
+
+}
+
+.TableListadoComponentes tr{
+  border:1px solid black;
+  text-align:center;
+  border-spacing: 0;
+}
+
+.TableListadoComponentes td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:center;
+  border-spacing: 0;
+}
+.TableListadoComponentes th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+.TableListadoComponentes tr:hover {background-color: #dde;}
+.TableListadoComponentes tr:nth-child(even){background-color: #f2f2f2;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+.BillOfMaterial {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.BillOfMaterial td, .BillOfMaterial th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.BillOfMaterial tr:nth-child(even){background-color: #f2f2f2;}
+
+.BillOfMaterial tr:hover {background-color: #ddd;}
+
+.BillOfMaterial th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+/*
+Estilos asociados a los menu de navegación
+*/
+
+.MenuGIOI {
+	list-style-type: none;
+	margin:0;
+	padding:0;	
+	box-sizing:border-box;
+	background-color: #333;
+	font-size:0;
+}
+.MenuGIOI a{
+      text-decoration:none;
+      color:inherit;
+      font-size:16px;
+      }
+            
+.MenuGIOI li{
+      display:inline-block;
+      width:150px;
+      height:20px;
+      padding:5px 2px;
+      background-color: #333;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+            
+.MenuGIOI li:hover{
+      background-color:green;
+      color:#000;
+      }
+/*
+Estilo aplicado aquellas a la etiquetas ul 
+que están contenidas en una etiqueta li y que esta a su vez contenida en un elemeno al que
+tiene asignado la clase MenuGIOI*/
+*/
+.MenuGIOI li>ul{
+      display:none;
+	  padding:0px 20px;
+      }
+
+.MenuGIOI li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
